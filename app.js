@@ -11,7 +11,9 @@ const path=require('path');
 app.use(express.static('public'));
 
 //Levantando el servidor Puerto 3000
-app.listen(3000,()=>console.log("Exito")); 
+const port = process.env.PORT || 3000;
+app.listen(port,()=>console.log("Exito")); 
+
 
 //RUTAS
 
