@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Mercado Liebre</title>
+    <!-- estilos -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/f4d1904851.js" crossorigin="anonymous"></script>
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/normalize.css">
+    <script src="https://kit.fontawesome.com/5ef236f1f2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <img class="logo" src="/images/logo-mercado-liebre.svg" alt="logo">
+            <h2 class="copy-header">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
+    </header>
+
+    <main class="main-register">
+        <h3>CREA TU CUENTA</h3>
+        <div>
+            <input type="text" name="nombre" placeholder="Nombre y apellido" required> 
+        </div>
+        <div>
+            <input type="text" name="usuario" placeholder="Nombre de usuario" required> 
+        </div>
+        <div>
+            <input type="email" name="email" placeholder="E-mail" required> 
+        </div>
+        <h3>Fecha de nacimiento</h3>
+        <div>
+        <input type="date" id="fecha" name="fecha" required>
+        </div>
+        <div>
+            <input type="text" name="domicilio" placeholder="Domicilio"> 
+        </div>
+        <h3>Perfil de usuario</h3>
+        <input type="radio"> <label>Comprador</label> <input type="radio" <label>Vendedor</label>
+        <h3>Intereses</h3>
+
+        <label for="electro">
+            <input type="checkbox" name="electro" id="electro">Electro
+        </label>
+        <br>
+        <label for="moda">
+            <input type="checkbox" name="moda" id="moda">Moda
+        </label>
+        <br>
+        <label for="hogar">
+            <input type="checkbox" name="hogar" id="hogar">Hogar
+        </label>
+        <br>
+        <label for="jugueteria">
+            <input type="checkbox" name="jugueteria" id="jugueteria">Juguetería
+        </label>
+        <br>
+        <label for="vidaSana">
+            <input type="checkbox" name="vidaSana" id="vidaSana">Vida sana
+        </label>
+        <br>
+
+        <input type="submit" value="Enviar">
+    </main>
+
+    <footer>
+        <section>
+            <div class="detalles-footer">
+                <i class=" icon-footer fa-regular fa-credit-card"></i>
+                <h3>Paga con tarjeta o en efectivo</h2>
+                    <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y
+                        siempre es
+                        seguro!</p>
+            </div>
+            <div class="detalles-footer">
+                <i class=" icon-footer fa-solid fa-gift"></i>
+                <h3>Envío gratis desde $2.500</h2>
+                    <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un
+                        beneficio de
+                        Mercado Puntos</p>
+            </div>
+            <div class="detalles-footer">
+                <i class=" icon-footer fa-solid fa-user-shield"></i>
+                <h3>Seguridad de principio a fin</h2>
+                    <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre
+                        protegid@
+                    </p>
+            </div>
+            <p class="copyrigth">Copyright ©️ 1999-2020 MercadoLiebre S.R.L</p>
+        </section>
+
+    </footer>
+</body>
+</html>
