@@ -12,7 +12,7 @@ app.use(express.static('public'));
 
 //Levantando el servidor Puerto 3000
 const port = process.env.PORT || 3000;
-app.listen(port,()=>console.log("Exito")); 
+app.listen(port,()=>console.log("Corriendo en el puerto " + port)); 
 
 
 //RUTAS
