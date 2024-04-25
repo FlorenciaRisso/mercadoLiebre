@@ -26,49 +26,51 @@
     </header>
 
     <main class="main-register">
-        <h3>CREA TU CUENTA</h3>
-        <div>
-            <input type="text" name="nombre" placeholder="Nombre y apellido" required> 
+        <div class="container">
+        <h2 class="h2-register">CREA TU CUENTA</h2>
+        <div class="block-input">
+            <input class="input" type="text" name="nombre" placeholder="Nombre y apellido" required> 
         </div>
-        <div>
-            <input type="text" name="usuario" placeholder="Nombre de usuario" required> 
+        <div class="block-input">
+            <input class="input" type="text" name="usuario" placeholder="Nombre de usuario" required> 
         </div>
-        <div>
-            <input type="email" name="email" placeholder="E-mail" required> 
+        <div class="block-input">
+            <input class="input" type="email" name="email" placeholder="E-mail" required> 
         </div>
         <h3>Fecha de nacimiento</h3>
-        <div>
-        <input type="date" id="fecha" name="fecha" required>
+        <div class="block-input">
+        <input class="input" type="date" id="fecha" name="fecha" required>
         </div>
-        <div>
-            <input type="text" name="domicilio" placeholder="Domicilio"> 
-        </div>
+        <div class="block-input">
+            <input class="input" type="text" name="domicilio" placeholder="Domicilio"> 
+        </div class="block-input">
+
         <h3>Perfil de usuario</h3>
-        <input type="radio"> <label>Comprador</label> <input type="radio" <label>Vendedor</label>
+
+        <div class="block-input-rol">
+        <input type="radio"><label class="label-input">Comprador</label> 
+        <input type="radio"><label class="label-input">Vendedor</label>
+        </div>
+
+        
         <h3>Intereses</h3>
 
-        <label for="electro">
-            <input type="checkbox" name="electro" id="electro">Electro
-        </label>
-        <br>
-        <label for="moda">
-            <input type="checkbox" name="moda" id="moda">Moda
-        </label>
-        <br>
-        <label for="hogar">
-            <input type="checkbox" name="hogar" id="hogar">Hogar
-        </label>
-        <br>
-        <label for="jugueteria">
-            <input type="checkbox" name="jugueteria" id="jugueteria">Juguetería
-        </label>
-        <br>
-        <label for="vidaSana">
-            <input type="checkbox" name="vidaSana" id="vidaSana">Vida sana
-        </label>
-        <br>
+        <div class="intereses-inputs">
+            <label for="electro">
+                <input class="input" type="checkbox" name="electro" id="electro">Electro
+            </label>
+            <label for="moda">
+                <input class="input" type="checkbox" name="moda" id="moda">Moda
+            </label>
+            <label for="hogar">
+                <input class="input" type="checkbox" name="hogar" id="hogar">Hogar
+            </label>
+            <label for="jugueteria"><input class="input" type="checkbox" name="jugueteria" id="jugueteria">Juguetería</label>
+            <label for="vidaSana"><input class="input" type="checkbox" name="vidaSana" id="vidaSana">Vida sana</label>
+        </div>
 
-        <input type="submit" value="Enviar">
+        <input class="input" type="submit" value="Enviar">
+    </div>
     </main>
 
     <footer>
